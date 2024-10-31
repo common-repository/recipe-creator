@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "recipe-creator/jump-to-recipe",
+  "title": "Jump to recipe",
+  "description": "Add a quick link which jumps to the recipe in the page.",
+  "category": "formatting",
+  "icon": "button",
+  "supports": {
+    "html": false,
+    "align": [
+      "center",
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "recipe-creator",
+  "editorScript": "file:editor.js",
+  "viewScript": "file:view.js",
+  "style": "file:view.css"
+}

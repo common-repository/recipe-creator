@@ -1,0 +1,23 @@
+.wrap .recipe-creator--block {
+  max-width: 600px !important;
+  margin: 0 auto !important;
+}
+
+#recipe-creator--settings-form {
+  .submit {
+    margin-top: 16px;
+  }
+
+  .iris-picker {
+    z-index: 1;
+  }
+}
+
+.posts {
+  .column-recipe-creator__average_rating {
+    .recipe-creator--rating {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

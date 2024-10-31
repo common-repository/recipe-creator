@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.recipe-creator--block--jump-to-recipe {
+  --primary: #030303;
+  --primary-contrast: #ffffff;
+
+  display: flex;
+  align-items: center;
+
+  .recipe-creator--block--jump-to-recipe--link {
+    display: inline-block;
+    background-color: var(--primary);
+    color: var(--primary-contrast);
+    padding: 8px 12px;
+    margin: 0 auto 24px auto;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
